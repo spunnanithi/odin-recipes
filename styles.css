@@ -1,0 +1,38 @@
+* {
+	font-family: "Times New Roman", Times, serif;
+
+	background-color: #202232;
+	color: #68d3a5;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	max-width: 1280px;
+	margin: 0 auto;
+	float: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title {
+	text-align: center;
+	font-weight: 800;
+}
+
+.subheading {
+	font-weight: 600;
+}
+
+.recipe-img {
+	width: 500px;
+	height: auto;
+
+	align-self: center;
+}
