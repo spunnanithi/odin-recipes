@@ -36,3 +36,30 @@ body {
 
 	align-self: center;
 }
+
+.header {
+	list-style-type: none;
+}
+
+.header-links {
+	display: inline-block;
+
+	margin: 0 10px;
+}
+
+.header-links a {
+	text-decoration: none;
+	color: #68d3a5;
+}
+
+.header-links a:hover {
+	color: #fff;
+}
+
+.header-links a:active {
+	color: #fff;
+}
+
+.header-links a:visited {
+	color: #8ddab8;
+}
